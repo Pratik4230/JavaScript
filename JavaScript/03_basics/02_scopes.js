@@ -1,7 +1,7 @@
 //var c = 300
 let a = 300
 if (true) {
-    let a = 10
+   let  a = 10
     const b = 20
     // console.log("INNER: ", a);
     
@@ -22,6 +22,7 @@ function one(){
         console.log(username);
     }
     // console.log(website);
+    // console.log("website");
 
      two()
 
@@ -33,18 +34,20 @@ if (true) {
     const username = "hitesh"
     if (username === "hitesh") {
         const website = " youtube"
-        // console.log(username + website);
+        console.log(username + website);
     }
     // console.log(website);
+    console.log("website");
 }
 
 // console.log(username);
+console.log("username");
 
 
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
 
-console.log(addone(5))
+// console.log(addone(5))
 
 function addone(num){
     return num + 1
@@ -52,7 +55,7 @@ function addone(num){
 
 
 
-addTwo(5)
+// addTwo(5)
 const addTwo = function(num){
     return num + 2
 }
